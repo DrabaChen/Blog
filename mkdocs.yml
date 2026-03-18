@@ -4,8 +4,8 @@ nav:
   - 主页: index.md
   - 业余无线电:
     - 快速手册: amateur_radio/quick-handbook.md
-    - 考取操作证书: amateur_radio/obtain-licence-cn.md
     - 发起呼叫: amateur_radio/first-call.md
+    - 考取操作证书: amateur_radio/obtain-licence-cn.md
 
 theme:
   name: cinder
@@ -21,3 +21,6 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/external-links.js
