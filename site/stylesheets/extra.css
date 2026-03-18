@@ -1,0 +1,50 @@
+/* Small, theme-agnostic improvements for readability */
+
+/* Make links clearly visible (cinder can be subtle on some backgrounds). */
+a {
+  color: #1e66f5;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+a:visited {
+  color: #6f42c1;
+}
+
+a:hover {
+  filter: brightness(0.9);
+}
+
+/* Improve table readability */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0.55rem 0.65rem;
+  vertical-align: top;
+}
+
+thead th {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+tbody tr:nth-child(2n) td {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+/* Headings spacing */
+h2 {
+  margin-top: 1.8rem;
+}
+
+/* Nicer blockquotes for quick notes */
+blockquote {
+  border-left: 4px solid rgba(30, 102, 245, 0.35);
+  padding-left: 0.9rem;
+  color: rgba(0, 0, 0, 0.75);
+}
+
