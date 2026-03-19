@@ -127,11 +127,13 @@ tbody tr:nth-child(2n) td {
 h2 {
   margin-top: 5.0rem;
   font-size: 2.50rem;
+  font-weight: 700;
 }
 
 h3 {
-  margin-top: 1.6rem;
-  font-size: 1.80rem;
+  margin-top: 3.0rem;
+  font-size: 2.00rem;
+  font-weight: 700;
 }
 
 /* Add more breathing room between sections/content blocks */

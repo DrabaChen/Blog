@@ -6,6 +6,8 @@ nav:
     - 快速手册: amateur_radio/quick-handbook.md
     - 发起呼叫: amateur_radio/first-call.md
     - 考取操作证书: amateur_radio/obtain-licence-cn.md
+    - 活动与竞赛: amateur_radio/activities-and-contests.md
+    - CW学习: amateur_radio/CW-learning.md
 
 theme:
   name: cinder
